@@ -31,6 +31,7 @@ docker --version && docker-compose --version && java -version && mvn -v && mysql
 
 - CentOS：`sudo yum install -y ansible`
 	- 查看版本：`ansible --version`
+    - 遇到没有可用安装包 (no avaliable package) https://www.cnblogs.com/zqntx/p/11395136.html
 - 编辑配置文件：`vim /etc/ansible/hosts`，在文件尾部添加：
 - 查看自己的内网 ip：`ifconfig`，假设是：172.16.16.4
 
