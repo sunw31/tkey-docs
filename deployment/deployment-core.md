@@ -135,7 +135,7 @@ ansible all -a 'ps'
             ]
           }
 
-    - name: restart docekr
+    - name: restart docker
       shell: "{{ item }}"
       with_items:
          - systemctl daemon-reload
